@@ -1,105 +1,131 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>110306008_Lab8</title>
+	<style>
+		h1{
+			color:darkgray;
+			background-color: indigo;
+		}
+		span{
+			color: black;
+			border: 1px solid rgb(223, 226, 31);
+		}
+		.test{
+			color: darkgray;
+			background-color: darkblue;
+		}
+		#test{
+			color: aqua;
+			background-color: blue;
+		}
+		.extra span {
+			color: inherit;
+		}
+		em{
+			font-weight: bold;
+			color: red;
+			font-weight: 600;
+		}
+		.testFontSize{
+			font-size: larger;
+		}
+		.Fontsize{
+			font-size: large;
+		}
+		.FontWeight800{
+			font-weight: 800;
+		}
+		.FontWeight500{
+			font-weight: 500;
+		}
+		.FontWeightbold{
+			font-weight: bold;
+		}
+		.FontWeightbolder{
+			font-weight: bolder;
+		}
+		.fontStyle1{
+			font-style: italic;
+		}
+		.fontStyle2{
+			font-style: normal;
+		}
+		.fontStyle3{
+			font-family: 'Courier New', Courier, monospace;
+		}
+
+		li em{
+			text-decoration: line-through;
+		}
+		h1, em{
+			text-decoration: underline;
+		}
+	</style>
+	<title>110306008</title>
 </head>
 <body>
-<form method="post">
-	<table border="1" width="80%">
-		<tr>
-			<th colspan="2">
-				About--110306008				
-			</th>
-		</tr>
-		<tr>
-			<td rowspan="3">
-				<div align="center">
-					<img src="cat1.jfif"><br>
-				</div>
-				<div align="center">
-					img
-				</div>
-			</td>
-			<td colspan="2">
-				<label>Name:
-					<input type="text" name="name"><br>
-				</label>
-				<label>gender:
-					<form>
-						<input type="radio" name="gender" value="male" checked>Male
-						<input type="radio" name="gender" value="female">Feale
-						<input type="radio" name="gender" value="other">Other
-					</form>
-				</label>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				county
-				<label>county
-					<select name="county">
-						<option value="Taipei">Taipei</option>
-						<option value="Tainan">Tainan</option>
-						<option value="Taichung">Taichung</option>
-						<option value="Taoyuan">Taoyuan</option>
-					</select>
-				</label>
-			</td>
-			<td>
-				Birthday
-				<label>birthday
-					<input id="birthday" type="date">
-				</label>
-			</td>
-		</tr>
-		<tr>
-			<td colspan="2">
-				E-mail:
-					<input id="mail" type="mail">
-			</td>
-		</tr>
-		<tr>
-			<td>
-				Hobby
-			</td>
-			<td colspan="2">
-				<input type="checkbox" name="hobby" value="swimming">Swimming
-				<input type="checkbox" name="hobby" value="Volleyball">Volleyball
-				<input type="checkbox" name="hobby" value="Movie">Movie
-				<input type="checkbox" name="hobby" value="Game">Game
-				<input type="checkbox" name="hobby" value="sleep">Sleep
-			</td>
-		</tr>
-		<tr>
-			<td>
-				Skill
-			</td>
-			<td colspan="2">
-				<input type="checkbox" name="skill" value="Java">Java
-				<input type="checkbox" name="skill" value="HTML">HTML
-				<input type="checkbox" name="skill" value="Python">Python
-				<input type="checkbox" name="skill" value="Microssoft Office">Microssoft Office
-				<input type="checkbox" name="skill" value="Premiere">Premiere
-			</td>
-		</tr>
-		<tr>
-			<td>
-				Say something
-			</td>
-			<td colspan="2">
-				<textarea rows="3" cols="100" placeholder="Say something here"></textarea>  
-			</td>
-		</tr>
-        <tr>
-            <td colspan="3">
-                <input type="submit" value="Submit">
-                <input type="reset" value="Clear">
-            </td>
-        </tr>
-	</table>
-    </form>
+	<h1>
+		110306008_Lab10
+	</h1>
+	<p class="test">
+		test color
+	</p>
+	<p id="test">
+		test color
+	</p>
+	<p>
+		test color <span>test span</span>
+	</p>
+	<p>
+		<em >
+			test font <span>test span</span><br>
+		</em>
+		<span class="test">
+			test color
+		</span>
+	</p>
+	<p>
+		font size
+		<div class="testFontSize">
+			font size
+		</div>
+		<div class="FontSize">
+			font size large
+		</div>
+	</p>
+	<p>
+		<br>
+		font weight
+		<div class="FontWeight800">
+			font weight 8
+		</div>
+		<div class="FontWeight500">
+			font weight 5
+		</div>
+		<div class="FontWeightbold">
+			font weight bold
+		</div>
+		<div class="FontWeightbolder">
+			font weight bolder
+		</div>
+	</p>
+	<p>
+		<div class="fontStyle1">
+			Style1
+		</div>
+		<div class="fontStyle2">
+			Style2
+		</div>
+		<div class="fontStyle3">
+			Style3
+		</div>
+	</p>
+	<p>
+		<em>h1 em</em>
+	</p>
+	<p>
+		<li>li<em>em</em></li>
+	</p>
 </body>
 </html>
 
