@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>110306008_Lab8</title>
+</head>
+<body>
+<form method="post">
+	<table border="1" width="80%">
+		<tr>
+			<th colspan="2">
+				About--110306008				
+			</th>
+		</tr>
+		<tr>
+			<td rowspan="3">
+				<div align="center">
+					<img src="cat1.jfif"><br>
+				</div>
+				<div align="center">
+					img
+				</div>
+			</td>
+			<td colspan="2">
+				<label>Name:
+					<input type="text" name="name"><br>
+				</label>
+				<label>gender:
+					<form>
+						<input type="radio" name="gender" value="male" checked>Male
+						<input type="radio" name="gender" value="female">Feale
+						<input type="radio" name="gender" value="other">Other
+					</form>
+				</label>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				county
+				<label>county
+					<select name="county">
+						<option value="Taipei">Taipei</option>
+						<option value="Tainan">Tainan</option>
+						<option value="Taichung">Taichung</option>
+						<option value="Taoyuan">Taoyuan</option>
+					</select>
+				</label>
+			</td>
+			<td>
+				Birthday
+				<label>birthday
+					<input id="birthday" type="date">
+				</label>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				E-mail:
+					<input id="mail" type="mail">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Hobby
+			</td>
+			<td colspan="2">
+				<input type="checkbox" name="hobby" value="swimming">Swimming
+				<input type="checkbox" name="hobby" value="Volleyball">Volleyball
+				<input type="checkbox" name="hobby" value="Movie">Movie
+				<input type="checkbox" name="hobby" value="Game">Game
+				<input type="checkbox" name="hobby" value="sleep">Sleep
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Skill
+			</td>
+			<td colspan="2">
+				<input type="checkbox" name="skill" value="Java">Java
+				<input type="checkbox" name="skill" value="HTML">HTML
+				<input type="checkbox" name="skill" value="Python">Python
+				<input type="checkbox" name="skill" value="Microssoft Office">Microssoft Office
+				<input type="checkbox" name="skill" value="Premiere">Premiere
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Say something
+			</td>
+			<td colspan="2">
+				<textarea rows="3" cols="100" placeholder="Say something here"></textarea>  
+			</td>
+		</tr>
+        <tr>
+            <td colspan="3">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Clear">
+            </td>
+        </tr>
+	</table>
+    </form>
+</body>
+</html>
+
